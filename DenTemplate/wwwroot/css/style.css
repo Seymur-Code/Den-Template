@@ -1,0 +1,62 @@
+.pt-90{
+    padding: 90px 0 0 0;
+}
+.pb-90{
+    padding: 0 0 90px  0;
+}
+.w-15{
+    width: 14%;
+}
+h1{
+    width: 100%;
+    float: left;
+    font-size: 4em;
+    color: #fa3e19;
+    line-height: 75px;
+}
+.btn{
+
+    width: 170px;
+    height: 50px;
+}
+.carousel-inner{
+    position: relative;
+}
+.carousel-control-next{
+    position: absolute;
+    top: 90%;
+    left: 0;
+    width: 40px;
+    height: 40px;
+}
+.carousel-control-prev{
+    position: absolute;
+    top: 80%;
+    left: 0;
+    width: 40px;
+    height: 40px;
+}
+.address i{
+    border: 1px dashed red;
+}
+p{
+    margin: 0;
+}
+ul{
+    padding: 0;
+}
+ul li {
+    list-style: none;
+    padding: 10px 10px 10px 0;
+}
+ul li a{
+    text-decoration: none;
+}
+@media only screen and (max-width: 1200px) {
+    .carousel-control-prev{
+        display: none;
+    }
+    .carousel-control-next{
+        display: none;
+    }
+  }
